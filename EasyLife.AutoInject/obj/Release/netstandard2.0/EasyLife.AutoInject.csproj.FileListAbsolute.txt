@@ -1,0 +1,10 @@
+F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\bin\Release\netstandard2.0\EasyLife.AutoInject.deps.json
+F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\bin\Release\netstandard2.0\EasyLife.AutoInject.dll
+F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\bin\Release\netstandard2.0\EasyLife.AutoInject.pdb
+F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\obj\Release\netstandard2.0\EasyLife.AutoInject.csproj.AssemblyReference.cache
+F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\obj\Release\netstandard2.0\EasyLife.AutoInject.GeneratedMSBuildEditorConfig.editorconfig
+F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\obj\Release\netstandard2.0\EasyLife.AutoInject.AssemblyInfoInputs.cache
+F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\obj\Release\netstandard2.0\EasyLife.AutoInject.AssemblyInfo.cs
+F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\obj\Release\netstandard2.0\EasyLife.AutoInject.csproj.CoreCompileInputs.cache
+F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\obj\Release\netstandard2.0\EasyLife.AutoInject.dll
+F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\obj\Release\netstandard2.0\EasyLife.AutoInject.pdb

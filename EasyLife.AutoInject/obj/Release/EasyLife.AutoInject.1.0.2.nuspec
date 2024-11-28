@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EasyLife.AutoInject</id>
+    <version>1.0.2</version>
+    <authors>Austin_Zhang</authors>
+    <description>Roslyn,SourceGenerator</description>
+    <copyright>MIT</copyright>
+    <tags>Roslyn,SourceGenerator</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="8.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\code\RiderProjects\EasyLife.AutoInject\EasyLife.AutoInject\bin\Release\netstandard2.0\EasyLife.AutoInject.dll" target="analyzers\dotnet\cs\EasyLife.AutoInject.dll" />
+  </files>
+</package>

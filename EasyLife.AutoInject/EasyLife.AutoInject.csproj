@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+        <AnalysisLevel>6.0-all</AnalysisLevel>
+        <Authors>Austin_Zhang</Authors>
+        <PackageVersion>1.0.4</PackageVersion>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <AnalyzerLanguage>cs</AnalyzerLanguage>
+        <InjectIsExternalInitOnLegacy>true</InjectIsExternalInitOnLegacy>
+        <LangVersion>latest</LangVersion>
+
+        <CompilerGeneratedFilesOutputPath>Generated</CompilerGeneratedFilesOutputPath>
+        <IsRoslynComponent>true</IsRoslynComponent>
+        <Description>Roslyn,SourceGenerator</Description>
+        <Copyright>MIT</Copyright>
+        <PackageTags>Roslyn,SourceGenerator</PackageTags>
+        <NoWarn>1573;1591;1712;SA1309;RS1035;CA1812</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Package the generator in the analyzer directory of the nuget package -->
+        <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="AssemblyMetadata.Generators" Version="2.1.0" PrivateAssets="All" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.11.0" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.11.0" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+    </ItemGroup>
+</Project>
