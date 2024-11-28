@@ -8,7 +8,7 @@
 ###  How to use?
   ```
   dotnet add package EasyLife.AutoInject.Attributes --version 1.0.0
-     dotnet add package EasyLife.AutoInject --version 1.0.4
+  dotnet add package EasyLife.AutoInject --version 1.0.4
   ```
      
 ### Example
